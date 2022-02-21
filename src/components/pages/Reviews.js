@@ -6,8 +6,9 @@ import '../HeroSection.css';
 export default function Reviews() {
     return (
         <div className='reviews'>
-            <h1>Guide others on their travels by telling us your experience!</h1>
-            <div className='hero-btns'>
+            <div className='hero-container'>
+                <h1>Guide others on their travels by telling us your experience!</h1>
+                <div className='hero-btns'>
                 <Button
                     className='btns' 
                     buttonStyle='btn--outline' 
@@ -16,6 +17,9 @@ export default function Reviews() {
                     GET STARTED
                 </Button>
             </div>
+            </div>
+            
+            
         </div>
     );
 }

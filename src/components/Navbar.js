@@ -22,7 +22,7 @@ function Navbar() {
 
     const onMouseEnter = () => {
         if (window.innerWidth < 960) {
-          setDropdown(false);
+          setDropdown(true);
         } else {
           setDropdown(true);
         }
@@ -35,6 +35,10 @@ function Navbar() {
             setDropdown(false);
         }
     };
+
+    const extendElement = () => {
+        dropdown ? setDropdown(false) : setDropdown(true);
+    }
 
     useEffect(() => {
         showButton();
@@ -60,11 +64,12 @@ function Navbar() {
                   </li>
                   <li className='nav-item' 
                     onMouseEnter={onMouseEnter}
-                    onMouseLeave={onMouseLeave}>
+                    onMouseLeave={onMouseLeave}
+                    onClick={extendElement}>
                       <Link to='/reviews' className='nav-links' onClick={closeMobileMenu}>
                           Reviews <i className='fas fa-caret-down' />
                       </Link>
-                      {dropdown && <Dropdown />}
+                      {dropdown && <Dropdown onCloseMobileMenu={closeMobileMenu}/>}
                   </li>
                   <li className='nav-item'>
                       <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>

@@ -29,6 +29,11 @@
   align-items: center;
 }
 
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
@@ -46,6 +51,8 @@
 }
 
 .nav-item {
+  display: flex;
+  align-items: center;
   height: 80px;
 }
 
@@ -60,6 +67,7 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
+  border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
@@ -138,6 +146,7 @@
   .nav-links-mobile {
     display: block;
     text-align: center;
+    padding: 1.5rem;
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
@@ -145,9 +154,6 @@
     font-size: 1.5rem;
     background-color: transparent;
     color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
