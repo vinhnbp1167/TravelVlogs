@@ -10,19 +10,19 @@ function SouthAmericaCards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/images/Peru.jpg'
+              src='https://vinhnbp1167.github.io/TravelVlogs/images/Peru.jpg'
               text='Put down that map and get wonderfully lost'
               label='Peru'
               path='/reviews'
             />
             <CardItem
-              src='/images/Brazil.jpg'
+              src='https://vinhnbp1167.github.io/TravelVlogs/images/Brazil.jpg'
               text="Explore Brazil's gorgeous natural landscape"
               label='Brazil'
               path='/reviews'
             />
             <CardItem
-              src='/images/CostaRica.jpg'
+              src='https://vinhnbp1167.github.io/TravelVlogs/images/CostaRica.jpg'
               text='The tropical country features volcanoes to hike and lush rainforests to traverse on foot or by zip line'
               label='Costa Rica'
               path='/reviews'

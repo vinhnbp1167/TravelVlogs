@@ -9,9 +9,10 @@ function AboutUs() {
       </div>
       
       <p>Travel Vlogs is designed to make your next vacation easier to plan. 
-        We understand how much time is consumed when you have to do research on where to go on your holiday. 
-        That is why Travel Vlogs allows users around the world to write a review and give tips based on their experience. 
-        This helps the next travelers to be aware of how much they need to spend, and what fun and hidden locations they should explore the next time they visit a location of their choice.</p>
+        We understand tour guides are expensive, and how much time is consumed when you have to do research on where to go on your holiday. 
+        That is when Travel Vlogs comes to help. We allow users around the world to write a review and give tips based on their experience.
+        Which means even the locals can come here, and escort the tourists to have a pleasant time when they decide to visit their country.
+      </p>
     </div>
   );
 }
