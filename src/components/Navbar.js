@@ -66,7 +66,7 @@ function Navbar() {
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave}
                     onClick={extendElement}>
-                      <Link to='/reviews' className='nav-links' onClick={closeMobileMenu}>
+                      <Link to='/review-selection' className='nav-links' onClick={closeMobileMenu}>
                           Reviews <i className='fas fa-caret-down' />
                       </Link>
                       {dropdown && <Dropdown onCloseMobileMenu={closeMobileMenu}/>}

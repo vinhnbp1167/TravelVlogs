@@ -1,0 +1,24 @@
+.review-selection {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.review-selection_panelList-wrap, .review-selection_panel-wrap, .review-selection_list-wrap {
+    overflow-y: auto;
+}
+
+.review-selection_panelList-wrap {
+    display: flex;
+    flex: 1;
+}
+
+.review-selection_panel-wrap {
+    flex-basis: 280px;
+    padding: 1rem;
+}
+
+.review-selection_list-wrap {
+    flex: 1;
+    padding: 1rem;
+}

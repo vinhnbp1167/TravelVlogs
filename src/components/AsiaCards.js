@@ -13,7 +13,7 @@ function AsiaCards() {
               src='/images/Vietnam.jpg'
               text="One of Southeast Asia’s most beautiful countries, attracting travellers to its lush mountains, bustling cities and golden sand beaches"
               label='Vietnam'
-              path='/reviews'
+              path='/review-selection'
             />
             <CardItem
               src='/images/Japan.jpg'
