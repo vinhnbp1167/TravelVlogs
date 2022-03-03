@@ -10,6 +10,7 @@ import SignUp from './components/pages/SignUp';
 import Footer from './components/Footer';
 import ReviewTest from './components/pages/ReviewTest';
 import ReviewSelection from './components/pages/ReviewSelection';
+import UploadPage from './components/pages/UploadPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/review-test' component={ReviewTest} />
           <Route path='/review-selection' component={ReviewSelection} />
+          <Route path='/upload' component={UploadPage} />
         </Switch>
         <Footer />
       </Router>

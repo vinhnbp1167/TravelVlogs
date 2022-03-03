@@ -1,0 +1,24 @@
+.upload-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.upload-page_panelList-wrap, .upload-page_panel-wrap, .upload-page_list-wrap {
+    overflow-y: auto;
+}
+
+.upload-page_panelList-wrap {
+    display: flex;
+    flex: 1;
+}
+
+.upload-page_panel-wrap {
+    flex-basis: 380px;
+    padding: 1rem;
+}
+
+.upload-page_list-wrap {
+    flex: 1;
+    padding: 1rem;
+}

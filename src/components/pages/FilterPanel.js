@@ -6,6 +6,7 @@ import CheckboxProton from './CheckboxProton'
 import SliderProton from './SliderProton'
 import { makeStyles } from '@material-ui/core/styles';
 import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab'
+import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles({
     root: {
@@ -53,16 +54,19 @@ const classes = useStyles();
       
     <div>
       <div className='input-group'>
+        <Link to='/upload'>
           <ToggleButtonGroup
-            value={selectedCategory}
-            exclusive
-            onChange={selectToggle}
-            className={classes.root}
-            >
-                <ToggleButton className={classes.toggle}>
-                ➕ Write a Review
-                </ToggleButton>
-        </ToggleButtonGroup>
+              value={selectedCategory}
+              exclusive
+              onChange={selectToggle}
+              className={classes.root}
+              >
+                  <ToggleButton className={classes.toggle}>
+                  ➕ Write a Review
+                  </ToggleButton>
+          </ToggleButtonGroup>
+        </Link>
+          
       </div>
 
       {/* Locations */}
