@@ -3,17 +3,27 @@ import './AboutUs.css';
 
 function AboutUs() {
   return (
-    <div className='about'>
-      <div className='mission'>
-        <h1>Our Mission</h1>
-      </div>
-      
-      <p>Travel Vlogs is designed to make your next vacation easier to plan. 
-        We understand tour guides are expensive, and how much time is consumed when you have to do research on where to go on your holiday. 
-        That is when Travel Vlogs comes to help. We allow users around the world to write a review and give tips based on their experience.
-        Which means even the locals can come here, and escort the tourists to have a pleasant time when they decide to visit their country.
-      </p>
+    <div className='cards'>
+      <div className='about'>
+        <div className='form-content-left'>
+            <div className='mission'>
+              <h1 >Our Mission</h1>
+            </div>
+        </div>
+        
+        
+        <div className='description'>Travel Vlogs is designed to make your next vacation planning easier! 
+            Did you know that tour guides tend to be expensive and time-consuming? 
+            That is why we understand the value of efficient, quick, and easily accessible tour reviews– before partaking on a holiday!
+            Travel Vlogs is a free online review and assistance guide. 
+            Users around the world have the opportunity to share their travel experience(s) by writing a review! 
+            Reviews range from travel-tips, recommendations, travel short-cuts, favorite restaurants, popular tourist locations, fancy resorts, and 5-star hotels! 
+            As our goal is to help tourists obtain an exemplary experience; we strongly encourage you to write a review of your own! 
+            Join Travel Vlogs and make your next holiday a satisfactory one! 
+        </div>
     </div>
+    </div>
+    
   );
 }
 

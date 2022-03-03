@@ -1,52 +1,52 @@
 .about {
-    padding: 4rem;
-    background: white;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-  }
-
-  .mission {
-    background: url('/src/images/AboutUs.jpg');
-    height: 40vh;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
+  margin: 100px auto;
+  width: 1000px;
+  position: relative;
+  border-radius: 10px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }
 
-  .mission > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
-  }
+.mission {
+  background: url('/src/images/AboutUs.jpg');
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .about > p {
-    margin-top: 8px;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-    text-align:center;
-  }
+.mission > h1 {
+  color: #fff;
+  font-size: 100px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  font-size: 1.3em;
+  border-radius: 0 10px 10px 0;
+    position: relative;
+}
 
   @media (max-width: 1024px) {
-    .mission {
-      height: 60%;
-      width: 85%;
-    }
-    .mission > h1 {
-      font-size: 50px;
-      margin-top: -50px;
+    .about {
+      width: 500px;
+      height: 200px;
     }
 
-    .about > p {
-      font-size: 25px;
+    .description{
+      font-size: 0.9em;
+    }
+
+
+    .mission > h1{
+      height: 70%;
     }
   }
